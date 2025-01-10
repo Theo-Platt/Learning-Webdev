@@ -1,0 +1,356 @@
+<!-- !DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Replication</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .container {
+            width: 100%;
+            border: 1px solid #333;
+            padding: 10px;
+            background-color: #1e1e1e;
+        }
+
+        .header {
+            display: flex;
+            font-weight: bold;
+            background-color: #232323;
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        .header div {
+            flex: 1;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .label-button {
+            font-weight: bold;
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #333;
+            background-color: #2e2e2e;
+            color: #ffffff;
+            cursor: pointer;
+            text-align: left;
+            border-radius: 0;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .label-button:hover {
+            background-color: #3a3a3a;
+        }
+
+        .value {
+            flex: 1;
+            text-align: center;
+            color: #bbbbbb;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .button {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            border: 1px solid #333;
+            background-color: #2e2e2e;
+            color: #ffffff;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 0;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .button:hover {
+            background-color: #3a3a3a;
+        }
+
+        .filters-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .filter-group h3 {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #ffffff;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #bbbbbb;
+        }
+
+        .filter-group input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .preset-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .preset-buttons button {
+            padding: 10px;
+            border: 1px solid #333;
+            background-color: #2e2e2e;
+            color: #ffffff;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 0;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .preset-buttons button:hover {
+            background-color: #3a3a3a;
+        }
+    </style>
+</head>
+<body>
+        <div  class="filters-container">
+        <div class="filter-group">
+            <h3>Free</h3>
+            <label><input type="checkbox"> Base Equipment</label>
+            <label><input type="checkbox"> Escalation of Freedom</label>
+        </div>
+        <div class="filter-group">
+            <h3>DLC</h3>
+            <label><input type="checkbox"> Alpha Commander</label>
+        </div>
+        <div class="filter-group">
+            <h3>Paid</h3>
+            <label><input type="checkbox"> Pre-Order</label>
+            <label><input type="checkbox"> Super Citizen</label>
+            <label><input type="checkbox"> Super Store</label>
+            <label><input type="checkbox"> Killzone Crossover Phase 1</label>
+        </div>
+        <div class="filter-group">
+            <h3>Event</h3>
+            <label><input type="checkbox"> Malevolon Creek Memorial Day</label>
+            <label><input type="checkbox"> Liberty Day</label>
+            <label><input type="checkbox"> Killzone Crossover Phase 2</label>
+        </div>
+        <div class="filter-group">
+            <h3>Warbond</h3>
+            <label><input type="checkbox"> Helldivers Mobilize</label>
+            <label><input type="checkbox"> Steeled Veterans</label>
+            <label><input type="checkbox"> Cutting Edge</label>
+            <label><input type="checkbox"> Democratic Detonation</label>
+            <label><input type="checkbox"> Polar Patriots</label>
+            <label><input type="checkbox"> Viper Commandos</label>
+            <label><input type="checkbox"> Freedoms Flame</label>
+            <label><input type="checkbox"> Chemical Agents</label>
+            <label><input type="checkbox"> Truth Enforcers</label>
+            <label><input onclick=fun(element.name) type="checkbox"> Urban Legends</label>
+        </div>
+        <div class="filter-group preset-buttons">
+            <h3>Apply Preset</h3>
+            <button>Cam</button>
+            <button>Theo</button>
+            <button>Adam</button>
+            <button>Tristan</button>
+            <button>Raymond</button>
+            <button>Save</button>
+        </div>
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HLR Filters</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .container {
+            width: 100%;
+            border: 1px solid #333;
+            padding: 10px;
+            background-color: #1e1e1e;
+        }
+
+        .header {
+            display: flex;
+            font-weight: bold;
+            background-color: #232323;
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        .header div {
+            flex: 1;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .label-button {
+            font-weight: bold;
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #333;
+            background-color: #2e2e2e;
+            color: #ffffff;
+            cursor: pointer;
+            text-align: left;
+            border-radius: 0;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .label-button:hover {
+            background-color: #3a3a3a;
+        }
+
+        .value {
+            flex: 1;
+            text-align: center;
+            color: #bbbbbb;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .button {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            border: 1px solid #333;
+            background-color: #2e2e2e;
+            color: #ffffff;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 0;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .button:hover {
+            background-color: #3a3a3a;
+        }
+
+        .filters-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #1e1e1e;
+            border: 1px solid #333;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .filter-group h3 {
+            margin-bottom: 10px;
+            font-size: 16px;
+            color: #ffffff;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: #bbbbbb;
+        }
+
+        .filter-group input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .preset-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .preset-buttons button {
+            padding: 10px;
+            border: 1px solid #333;
+            background-color: #2e2e2e;
+            color: #ffffff;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 0;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .preset-buttons button:hover {
+            background-color: #3a3a3a;
+        }
+    </style>
+</head>
+<body>
+        <div id="div1" class="filters-container">
+            <script type="text/javascript" src="./frontend.js"></script>
+            <script>
+                let payload;
+                async function startup(){
+                    payload = await getPayload()
+                    generatePage(payload)
+                    updateCheckboxes(payload)
+                }
+                startup()
+            </script>
+
+        <div class="filter-group preset-buttons">
+            <button onclick="window.location = './';">Back</button>
+            <button onclick="updatePreset(payload,'preset1-')">Save Preset 1</button>
+            <button onclick="updatePreset(payload,'preset2-')">Save Preset 2</button>
+            <button onclick="updatePreset(payload,'preset3-')">Save Preset 3</button>
+            <button onclick="updateCheckboxes(payload,'preset1-')">Load Preset 1</button>
+            <button onclick="updateCheckboxes(payload,'preset2-')">Load Preset 2</button>
+            <button onclick="updateCheckboxes(payload,'preset3-')">Load Preset 3</button>
+
+        </div>
+    </div>
+</body>
+</html>

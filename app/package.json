@@ -1,0 +1,17 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "just learning how to dockerize node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo 'foobar'",
+    "start": "node app.js"
+  },
+  "author": "tplatt",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongoclient": "^1.0.3",
+    "mongodb": "^6.12.0"
+  }
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script type="text/javascript" src="./frontend.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helldivers Loadout Randomizer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        .container {
+            width: 100%;
+            border: 1px solid #333;
+            padding: 10px;
+            background-color: #1e1e1e;
+        }
+
+        .header {
+            display: flex;
+            font-weight: bold;
+            background-color: #232323;
+            padding: 10px;
+            border-bottom: 1px solid #333;
+        }
+
+        .header div {
+            flex: 1;
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+        }
+
+        .label-button {
+            font-weight: bold;
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #333;
+            background-color: #2e2e2e;
+            color: #ffffff;
+            cursor: pointer;
+            text-align: left;
+            border-radius: 0;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .label-button:hover {
+            background-color: #3a3a3a;
+        }
+
+        .value {
+            flex: 1;
+            text-align: center;
+            color: #bbbbbb;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+        }
+
+        .button {
+            flex: 1;
+            padding: 10px;
+            margin: 0 5px;
+            border: 1px solid #333;
+            background-color: #2e2e2e;
+            color: #ffffff;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 0;
+            box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .button:hover {
+            background-color: #3a3a3a;
+        }
+    </style>
+</head>
+<body>
+    
+    <script>updateCookies('Base Equipment','true')</script>
+    <div class="container">
+        <div class="header">
+            <div>Label</div>
+            <div>Name</div>
+            <div>Source</div>
+            <div>Type</div>
+            <div>Subtype</div>
+            <div>Misc</div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Primary')" class="label-button">Primary</button>
+            <div id="Primary-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Primary-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Primary-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Primary-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Primary-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Secondary')" class="label-button">Secondary</button>
+            <div id="Secondary-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Secondary-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Secondary-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Secondary-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Secondary-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Throwable')" class="label-button">Throwable</button>
+            <div id="Throwable-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Throwable-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Throwable-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Throwable-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Throwable-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Armor')" class="label-button">Armor</button>
+            <div id="Armor-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Armor-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Armor-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Armor-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Armor-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Helmet')" class="label-button">Helmet</button>
+            <div id="Helmet-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Helmet-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Helmet-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Helmet-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Helmet-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Cape')" class="label-button">Cape</button>
+            <div id="Cape-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Cape-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Cape-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Cape-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Cape-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Strategem',0)" class="label-button">Strategem</button>
+            <div id="Strategem0-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Strategem0-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Strategem0-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Strategem0-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Strategem0-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Strategem',1)" class="label-button">Strategem</button>
+            <div id="Strategem1-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Strategem1-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Strategem1-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Strategem1-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Strategem1-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Strategem',2)" class="label-button">Strategem</button>
+            <div id="Strategem2-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Strategem2-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Strategem2-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Strategem2-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Strategem2-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Strategem',3)" class="label-button">Strategem</button>
+            <div id="Strategem3-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Strategem3-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Strategem3-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Strategem3-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Strategem3-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="row">
+            <button onclick="random_selection('Booster')" class="label-button">Booster</button>
+            <div id="Booster-name"    class="value"><script>/* Insert Name Here */</script></div>
+            <div id="Booster-Source"  class="value"><script>/* Insert Source Here */</script></div>
+            <div id="Booster-Type"    class="value"><script>/* Insert Type Here */</script></div>
+            <div id="Booster-Subtype" class="value"><script>/* Insert Subtype Here */</script></div>
+            <div id="Booster-Misc"    class="value"><script>/* Insert Misc Here */</script></div>
+        </div>
+        <div class="buttons">
+            <button class="button" onclick=full_randomize()>Randomize All</button>
+            <button class="button" onclick="window.location = './filters.html';">Filters</button>
+        </div>
+    </div>
+</body>
+</html>

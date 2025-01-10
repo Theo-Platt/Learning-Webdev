@@ -1,0 +1,32 @@
+services:
+
+  nodejs:
+    container_name: nodejs
+    restart: always
+    build:
+      context: ./app
+      args:
+        NODE_PORT: 3000
+    ports:
+      - 3000:3000
+    volumes:
+      - ./app:/var/
+      - /var/node_modules
+
+  mongo:
+    container_name: mongo
+    build:
+      context: ./mongo
+    restart: always
+    ports:
+      - 27017:27017
+
+  nginx:
+    container_name: nginx
+    build:
+      context: ./nginx
+    ports:
+      - "80:80"
+    depends_on:
+      - nodejs
+      - mongo
