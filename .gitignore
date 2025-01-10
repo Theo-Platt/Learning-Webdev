@@ -1,3 +1,5 @@
+/backend-mongo/data/db
+
 /build
 /src/mongo/db/modules/*
 !/src/mongo/db/modules/enterprise/
@@ -114,6 +116,7 @@ scratch
 *.tgz
 *.zip
 *.tar.gz
+
 
 #libs
 /libmongoclient.*
