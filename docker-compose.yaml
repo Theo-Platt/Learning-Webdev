@@ -4,7 +4,7 @@ services:
     container_name: nodejs
     restart: always
     build:
-      context: ./app
+      context: ./backend-express
       args:
         NODE_PORT: 3000
     ports:
@@ -16,7 +16,7 @@ services:
   mongo:
     container_name: mongo
     build:
-      context: ./mongo
+      context: ./backend-mongo
     restart: always
     ports:
       - 27017:27017
@@ -26,7 +26,7 @@ services:
   nginx:
     container_name: nginx
     build:
-      context: ./nginx
+      context: ./server-nginx
     ports:
       - "80:80"
     depends_on:

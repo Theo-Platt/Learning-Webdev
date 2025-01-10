@@ -6,8 +6,8 @@ ENV MONGO_INITDB_ROOT_PASSWORD root
 ENV MONGO_INITDB_DATABASE Helldive
 
 #copy the data
-COPY ./data/Equipment.csv /data/db/
-COPY ./data/Sources.csv /data/db/
+COPY ./data/sources/Equipment.csv /data/sources/
+COPY ./data/sources/Sources.csv /data/sources/
 
 COPY ./setup/importscript.sh /docker-entrypoint-initdb.d/
 
