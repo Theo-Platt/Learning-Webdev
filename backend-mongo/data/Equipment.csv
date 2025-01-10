@@ -1,0 +1,310 @@
+Name,Class,Source,A Weight,A Perk,W Class,W Penetration,S Category,S Classification
+SC-37 Legionnaire,Armor,Super Store,Light,Servo Assisted,,,,
+SC-34 Infiltrator,Armor,Helldivers Mobilize,Light,Scout,,,,
+SC-30 Trailblazer Scout,Armor,Helldivers Mobilize,Light,Scout,,,,
+CE-74 Breaker,Armor,Super Store,Light,Engineering Kit,,,,
+FS-38 Eradicator,Armor,Super Store,Light,Fortified,,,,
+B-08 Light Gunner,Armor,Super Store,Light,Extra Padding,,,,
+CM-21 Trench Paramedic,Armor,Super Store,Light,Med Kit,,,,
+CE-67 Titan,Armor,Super Store,Light,Engineering Kit,,,,
+EX-00 Prototype X,Armor,Cutting Edge,Light,Electrical Conduit,,,,
+CE-07 Demolition Specialist,Armor,Democratic Detonation,Light,Engineering Kit,,,,
+FS-37 Ravager,Armor,Super Store,Light,Engineering Kit,,,,
+CW-4 Arctic Ranger,Armor,Polar Patriots,Light,Scout,,,,
+PH-9 Predator,Armor,Viper Commandos,Light,Peak Physique,,,,
+I-09 Heatseeker,Armor,Freedoms Flame,Light,Inflammable,,,,
+AF-50 Noxious Ranger,Armor,Chemical Agents,Light,Advanced Filtration,,,,
+UF-16 Inspector,Armor,Truth Enforcers,Light,Unflinching,,,,
+SR-24 Street Scout,Armor,Urban Legends,Light,Siege Ready,,,,
+B-01 Tactical,Armor,Base Equipment,Medium,Extra Padding,,,,
+TR-7 Ambassador of the Brand,Armor,Pre-Order,Medium,Extra Padding,,,,
+TR-9 Cavalier of Democracy,Armor,Pre-Order,Medium,Democracy Protects,,,,
+DP-53 Savior of the Free,Armor,Super Citizen,Medium,Democracy Protects,,,,
+TR-117 Alpha Commander,Armor,Alpha Commander,Medium,Med Kit,,,,
+SC-15 Drone Master,Armor,Super Store,Medium,Engineering Kit,,,,
+CE-35 Trench Engineer,Armor,Helldivers Mobilize,Medium,Engineering Kit,,,,
+CM-09 Bonesnapper,Armor,Helldivers Mobilize,Medium,Med Kit,,,,
+DP-40 Hero of the Federation,Armor,Helldivers Mobilize,Medium,Democracy Protects,,,,
+SA-04 Combat Technician,Armor,Helldivers Mobilize,Medium,Scout,,,,
+CM-14 Physician,Armor,Helldivers Mobilize,Medium,Med Kit,,,,
+DP-11 Champion of the People,Armor,Helldivers Mobilize,Medium,Democracy Protects,,,,
+SA-25 Steel Trooper,Armor,Steeled Veterans,Medium,Servo Assisted,,,,
+SA-12 Servo Assisted,Armor,Steeled Veterans,Medium,Servo Assisted,,,,
+B-24 Enforcer,Armor,Super Store,Medium,Fortified,,,,
+CE-81 Juggernaut,Armor,Super Store,Medium,Engineering Kit,,,,
+FS-34 Exterminator,Armor,Super Store,Medium,Fortified,,,,
+EX-03 Prototype 3,Armor,Cutting Edge,Medium,Electrical Conduit,,,,
+EX-16 Prototype 16,Armor,Cutting Edge,Medium,Electrical Conduit,,,,
+CE-27 Ground Breaker,Armor,Democratic Detonation,Medium,Engineering Kit,,,,
+CM-10 Clinician,Armor,Super Store,Medium,Med Kit,,,,
+CW-9 White Wolf,Armor,Super Store,Medium,Extra Padding,,,,
+AC-1 Dutiful,Helmet,Killzone Crossover Phase 1,,,,,,
+Strength in Our Arms,Cape,Killzone Crossover Phase 1,,,,,,
+AC-1 Dutiful,Armor,Killzone Crossover Phase 1,Medium,Acclimated,,,,
+PH-56 Jaguar,Armor,Super Store,Medium,Peak Physique,,,,
+TR-40 Gold Eagle,Armor,Escalation of Freedom,Medium,Extra Padding,,,,
+I-92 Fire Fighter,Armor,Super Store,Medium,Inflammable,,,,
+I-102 Draconaught,Armor,Freedoms Flame,Medium,Inflammable,,,,
+AF-91 Field Chemist,Armor,Super Store,Medium,Advanced Filtration,,,,
+AF-02 Haz-Master,Armor,Chemical Agents,Medium,Advanced Filtration,,,,
+DP-00 Tactical,Armor,Liberty Day,Medium,Democracy Protects,,,,
+UF-84 Doubt Killer,Armor,Super Store,Medium,Unflinching,,,,
+UF-50 Bloodhound,Armor,Truth Enforcers,Medium,Unflinching,,,,
+TR-62 Knight,Armor,Pre-Order,Heavy,Servo Assisted,,,,
+FS-05 Marksman,Armor,Helldivers Mobilize,Heavy,Fortified,,,,
+FS-23 Battle Master,Armor,Helldivers Mobilize,Heavy,Fortified,,,,
+SA-32 Dynamo,Armor,Steeled Veterans,Heavy,Servo Assisted,,,,
+B-27 Fortified Commando,Armor,Super Store,Heavy,Extra Padding,,,,
+FS-61 Dreadnought,Armor,Super Store,Heavy,Servo Assisted,,,,
+FS-11 Executioner,Armor,Super Store,Heavy,Fortified,,,,
+CM-17 Butcher,Armor,Super Store,Heavy,Med Kit,,,,
+FS-55 Devastator,Armor,Democratic Detonation,Heavy,Fortified,,,,
+CW-36 Winter Warrior,Armor,Polar Patriots,Heavy,Servo Assisted,,,,
+CW-22 Kodiak,Armor,Polar Patriots,Heavy,Fortified,,,,
+CE-64 Grenadier,Armor,Super Store,Heavy,Engineering Kit,,,,
+CE-101 Guerilla Gorilla,Armor,Super Store,Heavy,Engineering Kit,,,,
+PH-202 Twigsnapper,Armor,Viper Commandos,Heavy,Peak Physique,,,,
+I-44 Salamander,Armor,Super Store,Heavy,Inflammable,,,,
+AF-52 Lockdown,Armor,Super Store,Heavy,Advanced Filtration,,,,
+B-01 Tactical,Helmet,Base Equipment,,,,,,
+TR-7 Ambassador of the Brand,Helmet,Pre-Order,,,,,,
+TR-9 Cavalier of Democracy,Helmet,Pre-Order,,,,,,
+TR-62 Knight,Helmet,Pre-Order,,,,,,
+DP-53 Savior of the Free,Helmet,Super Citizen,,,,,,
+TR-117 Alpha Commander,Helmet,Alpha Commander,,,,,,
+SC-37 Legionnaire,Helmet,Super Store,,,,,,
+SC-15 Drone Master,Helmet,Super Store,,,,,,
+SC-34 Infiltrator,Helmet,Helldivers Mobilize,,,,,,
+FS-05 Marksman,Helmet,Helldivers Mobilize,,,,,,
+CE-35 Trench Engineer,Helmet,Helldivers Mobilize,,,,,,
+CM-09 Bonesnapper,Helmet,Helldivers Mobilize,,,,,,
+DP-40 Hero of the Federation,Helmet,Helldivers Mobilize,,,,,,
+FS-23 Battle Master,Helmet,Helldivers Mobilize,,,,,,
+SC-30 Trailblazer Scout,Helmet,Helldivers Mobilize,,,,,,
+SA-04 Combat Technician,Helmet,Helldivers Mobilize,,,,,,
+CM-14 Physician,Helmet,Helldivers Mobilize,,,,,,
+DP-11 Champion of the People,Helmet,Helldivers Mobilize,,,,,,
+SA-25 Steel Trooper,Helmet,Steeled Veterans,,,,,,
+SA-12 Servo Assisted,Helmet,Steeled Veterans,,,,,,
+SA-32 Dynamo,Helmet,Steeled Veterans,,,,,,
+B-24 Enforcer,Helmet,Super Store,,,,,,
+CE-74 Breaker,Helmet,Super Store,,,,,,
+B-27 Fortified Commando,Helmet,Super Store,,,,,,
+FS-38 Eradicator,Helmet,Super Store,,,,,,
+B-08 Light Gunner,Helmet,Super Store,,,,,,
+FS-61 Dreadnought,Helmet,Super Store,,,,,,
+FS-11 Executioner,Helmet,Super Store,,,,,,
+CM-21 Trench Paramedic,Helmet,Super Store,,,,,,
+CE-81 Juggernaut,Helmet,Super Store,,,,,,
+FS-34 Exterminator,Helmet,Super Store,,,,,,
+CE-67 Titan,Helmet,Super Store,,,,,,
+CM-17 Butcher,Helmet,Super Store,,,,,,
+EX-03 Prototype 3,Helmet,Cutting Edge,,,,,,
+EX-16 Prototype 16,Helmet,Cutting Edge,,,,,,
+EX-00 Prototype X,Helmet,Cutting Edge,,,,,,
+CE-27 Ground Breaker,Helmet,Democratic Detonation,,,,,,
+CE-07 Demolition Specialist,Helmet,Democratic Detonation,,,,,,
+FS-55 Devastator,Helmet,Democratic Detonation,,,,,,
+CM-10 Clinician,Helmet,Super Store,,,,,,
+FS-37 Ravager,Helmet,Super Store,,,,,,
+CW-36 Winter Warrior,Helmet,Polar Patriots,,,,,,
+CW-22 Kodiak,Helmet,Polar Patriots,,,,,,
+CW-4 Arctic Ranger,Helmet,Polar Patriots,,,,,,
+CW-9 White Wolf,Helmet,Super Store,,,,,,
+CE-64 Grenadier,Helmet,Super Store,,,,,,
+PH-56 Jaguar,Helmet,Super Store,,,,,,
+CE-101 Guerilla Gorilla,Helmet,Super Store,,,,,,
+PH-9 Predator,Helmet,Viper Commandos,,,,,,
+PH-202 Twigsnapper,Helmet,Viper Commandos,,,,,,
+TR-40 Gold Eagle,Helmet,Escalation of Freedom,,,,,,
+I-44 Salamander,Helmet,Super Store,,,,,,
+I-92 Fire Fighter,Helmet,Super Store,,,,,,
+I-09 Heatseeker,Helmet,Freedoms Flame,,,,,,
+I-102 Draconaught,Helmet,Freedoms Flame,,,,,,
+AF-52 Lockdown,Helmet,Super Store,,,,,,
+AF-91 Field Chemist,Helmet,Super Store,,,,,,
+AF-50 Noxious Ranger,Helmet,Chemical Agents,,,,,,
+AF-02 Haz-Master,Helmet,Chemical Agents,,,,,,
+DP-00 Tactical,Helmet,Liberty Day,,,,,,
+UF-84 Doubt Killer,Helmet,Super Store,,,,,,
+UF-50 Bloodhound,Helmet,Truth Enforcers,,,,,,
+UF-16 Inspector,Helmet,Truth Enforcers,,,,,,
+Foesmasher,Cape,Base Equipment,,,,,,
+Independence Bringer,Cape,Helldivers Mobilize,,,,,,
+Liberty's Herald,Cape,Helldivers Mobilize,,,,,,
+Tideturner,Cape,Helldivers Mobilize,,,,,,
+The Cape of Stars and Suffrage,Cape,Helldivers Mobilize,,,,,,
+Unblemished Allegiance,Cape,Helldivers Mobilize,,,,,,
+Judgment Day,Cape,Helldivers Mobilize,,,,,,
+Cresting Honor,Cape,Helldivers Mobilize,,,,,,
+Mantle of True Citizenship,Cape,Helldivers Mobilize,,,,,,
+Blazing Samaritan,Cape,Helldivers Mobilize,,,,,,
+Light of Eternal Liberty,Cape,Helldivers Mobilize,,,,,,
+Will of the People,Cape,Super Citizen,,,,,,
+Tyrant Hunter,Cape,Steeled Veterans,,,,,,
+Cloak of Posterity's Gratitude,Cape,Steeled Veterans,,,,,,
+Drape of Glory,Cape,Steeled Veterans,,,,,,
+Bastion of Integrity,Cape,Steeled Veterans,,,,,,
+Botslayer,Cape,Cutting Edge,,,,,,
+Martyris Rex,Cape,Cutting Edge,,,,,,
+Agent of Oblivion,Cape,Cutting Edge,,,,,,
+Fallen Hero's Vengeance,Cape,Malevelon Creek Memorial Day,,,,,,
+Harbinger of True Equality,Cape,Democratic Detonation,,,,,,
+Eagle's Fury,Cape,Democratic Detonation,,,,,,
+Freedom's Tapestry,Cape,Democratic Detonation,,,,,,
+Dissident's Nightmare,Cape,Polar Patriots,,,,,,
+Pinions of Everlasting Glory,Cape,Polar Patriots,,,,,,
+Order of the Venerated Ballot,Cape,Polar Patriots,,,,,,
+Mark of the Crimson Fang,Cape,Viper Commandos,,,,,,
+Executioner's Canopy,Cape,Viper Commandos,,,,,,
+Purifying Eclipse,Cape,Freedoms Flame,,,,,,
+The Breach,Cape,Freedoms Flame,,,,,,
+Standard of Safe Distance,Cape,Chemical Agents,,,,,,
+Patient Zero's Remembrance,Cape,Chemical Agents,,,,,,
+Cover of Darkness	Super Credit.svg,Cape,Super Store,,,,,,
+Pride of the Whistleblower,Cape,Truth Enforcers,,,,,,
+Proof of Faultless Virtue,Cape,Truth Enforcers,,,,,,
+SR-64 Cinderblock,Helmet,Super Store,,,,,,
+SR-24 Street Scout,Helmet,Urban Legends,,,,,,
+SR-18 Roadblock,Helmet,Urban Legends,,,,,,
+Stone-Wrought Perseverance,Cape,Super Store,,,,,,
+Holder of the Yellow Line,Cape,Urban Legends,,,,,,
+Greatcloak of Rebar Resolve,Cape,Urban Legends,,,,,,
+SR-64 Cinderblock,Armor,Super Store,Heavy,Siege Ready,,,,
+SR-18 Roadblock,Armor,Urban Legends,Heavy,Siege Ready,,,,
+AR-23 Liberator,Primary,Base Equipment,,,AR,2,,
+StA-52 Assault Rifle,Primary,Killzone Crossover Phase 1,,,AR,2,,
+AR-23P Liberator Penetrator,Primary,Helldivers Mobilize,,,AR,3,,
+AR-23P Liberator Concussive,Primary,Steeled Veterans,,,AR,2,,
+AR-23P Liberator Carbine,Primary,Viper Commandos,,,AR,2,,
+AR-61 Tenderizer,Primary,Polar Patriots,,,AR,2,,
+BR-14 Adjudicator,Primary,Democratic Detonation,,,AR,3,,
+R-2124 Constitution,Primary,Liberty Day,,,MR,3,,
+R-63 Diligence,Primary,Helldivers Mobilize,,,MR,2,,
+R-63CS Diligence Counter Sniper,Primary,Helldivers Mobilize,,,MR,3,,
+MP-98 Knight,Primary,Super Citizen,,,SMG,2,,
+SMG-37 Defender,Primary,Helldivers Mobilize,,,SMG,2,,
+SMG-72 Pummeler,Primary,Polar Patriots,,,SMG,2,,
+SMG-32 Reprimand,Primary,Truth Enforcers,,,SMG,3,,
+SG-8 Punisher,Primary,Helldivers Mobilize,,,SG,2,,
+SG-8S Slugger,Primary,Helldivers Mobilize,,,SG,3,,
+SG-451 Cookout,Primary,Freedoms Flame,,,SG,2,,
+SG-225 Breaker,Primary,Helldivers Mobilize,,,SG,2,,
+SG-225SP Breaker Spray & Play,Primary,Steeled Veterans,,,SG,2,,
+SG-225IE Breaker Incendiary,Primary,Steeled Veterans,,,SG,2,,
+SG-20 Halt,Primary,Truth Enforcers,,,SG,3,,
+CB-9 Exploding Crossbow,Primary,Democratic Detonation,,,Explosive,3,,
+R-34 Eruptor,Primary,Democratic Detonation,,,Explosive,3,,
+SG-8P Punisher Plasma,Primary,Cutting Edge,,,Energy,3,,
+ARC-12 Blitzer,Primary,Cutting Edge,,,Energy,3,,
+LAS-5 Scythe,Primary,Helldivers Mobilize,,,Energy,3,,
+LAS-16 Sickle,Primary,Cutting Edge,,,Energy,2,,
+PLAS-1 Scorcher,Primary,Helldivers Mobilize,,,Energy,3,,
+PLAS-101 Purifier,Primary,Polar Patriots,,,Energy,3,,
+FLAM-66 Torcher,Primary,Freedoms Flame,,,Special,4,,
+JAR-5 Dominator,Primary,Steeled Veterans,,,Special,3,,
+P-2 Peacemaker,Secondary,Base Equipment,,,Pistol,2,,
+P-19 Redeemer,Secondary,Helldivers Mobilize,,,Pistol,2,,
+P-113 Verdict,Secondary,Polar Patriots,,,Pistol,3,,
+P-4 Senator,Secondary,Steeled Veterans,,,Pistol,4,,
+P-11 Stim Pistol,Secondary,Chemical Agents,,,Special,0,,
+SH-22 Bushwacker,Secondary,Viper Commandos,,,Special,2,,
+P-72 Crisper,Secondary,Freedoms Flame,,,Special,4,,
+GP-31 Grenade Pistol,Secondary,Democratic Detonation,,,Special,3,,
+LAS-7 Dagger,Secondary,Cutting Edge,,,Special,2,,
+PLAS-15 Loyalist,Secondary,Truth Enforcers,,,Special,3,,
+CQC-19 Stun Lance,Secondary,Urban Legends,,,Melee,3,,
+CQC-30 Stun Baton,Secondary,Super Store,,,Melee,3,,
+G-6 Frag,Throwable,Helldivers Mobilize,,,Standard,3,,
+G-12 High Explosive,Throwable,Base Equipment,,,Standard,4,,
+G-10 Incindiary,Throwable,Steeled Veterans,,,Standard,3,,
+G-16 Impact,Throwable,Helldivers Mobilize,,,Special,4,,
+G-13 Incendiary Impact,Throwable,Polar Patriots,,,Special,3,,
+G-23 Stun,Throwable,Cutting Edge,,,Special,6,,
+G-4 Gas,Throwable,Chemical Agents,,,Special,6,,
+G-3 Smoke,Throwable,Helldivers Mobilize,,,Special,0,,
+G-123 Thermite,Throwable,Democratic Detonation,,,Special,7,,
+K-2 Throwing Knife,Throwable,Viper Commandos,,,Special,3,,
+Orbital Precision Strike,Strategem,Base Equipment,,,,8,Offensive,Orbital
+Orbital Gas Strike,Strategem,Helldivers Mobilize,,,,6,Offensive,Orbital
+Orbital Gatling Barrage,Strategem,Helldivers Mobilize,,,,5,Offensive,Orbital
+Orbital EMS Strike,Strategem,Helldivers Mobilize,,,,4,Offensive,Orbital
+Orbital 120MM HE Barrage,Strategem,Helldivers Mobilize,,,,5,Offensive,Orbital
+Orbital Airburst Strike,Strategem,Helldivers Mobilize,,,,3,Offensive,Orbital
+Orbital Smoke Strike,Strategem,Helldivers Mobilize,,,,0,Offensive,Orbital
+Orbital 380mm HE Barrage,Strategem,Helldivers Mobilize,,,,8,Offensive,Orbital
+Orbital Walking Barrage,Strategem,Helldivers Mobilize,,,,8,Offensive,Orbital
+Orbital Lazer,Strategem,Helldivers Mobilize,,,,6,Offensive,Orbital
+Orbital Napalm Barrage,Strategem,Helldivers Mobilize,,,,5,Offensive,Orbital
+Orbital Railcannon Strike,Strategem,Helldivers Mobilize,,,,7,Offensive,Orbital
+Eagle Airstrike,Strategem,Helldivers Mobilize,,,,7,Offensive,Eagle
+Eagle Strafing Run,Strategem,Helldivers Mobilize,,,,5,Offensive,Eagle
+Eagle Cluster Bomb,Strategem,Helldivers Mobilize,,,,3,Offensive,Eagle
+Eagle Napalm Strike,Strategem,Helldivers Mobilize,,,,3,Offensive,Eagle
+Eagle Smoke Strike,Strategem,Helldivers Mobilize,,,,0,Offensive,Eagle
+Eagle 110mm Rocket Pods,Strategem,Helldivers Mobilize,,,,7,Offensive,Eagle
+Eagle 500kg Bomb,Strategem,Helldivers Mobilize,,,,7,Offensive,Eagle
+Sterilizer,Strategem,Chemical Agents,,,,5,Defensive,Support Weapon
+Anti-Materiel Rifle,Strategem,Helldivers Mobilize,,,,4,Defensive,Support Weapon
+W.A.S.P. Launcher,Strategem,Helldivers Mobilize,,,,5,Defensive,Support Weapon
+Machine Gun,Strategem,Base Equipment,,,,3,Defensive,Support Weapon
+Stalwart,Strategem,Helldivers Mobilize,,,,2,Defensive,Support Weapon
+Expendable Anti-Tank,Strategem,Helldivers Mobilize,,,,6,Defensive,Support Weapon
+Grenade launcher,Strategem,Helldivers Mobilize,,,,3,Defensive,Support Weapon
+Laser Cannon,Strategem,Helldivers Mobilize,,,,4,Defensive,Support Weapon
+Recoilless Rifle,Strategem,Helldivers Mobilize,,,,6,Defensive,Support Weapon
+Auto Cannon,Strategem,Helldivers Mobilize,,,,4,Defensive,Support Weapon
+Flamethrower,Strategem,Helldivers Mobilize,,,,4,Defensive,Support Weapon
+Heavy Machine Gun,Strategem,Helldivers Mobilize,,,,4,Defensive,Support Weapon
+Airburst Rocket Launcher,Strategem,Helldivers Mobilize,,,,3,Defensive,Support Weapon
+Arc Thrower,Strategem,Helldivers Mobilize,,,,7,Defensive,Support Weapon
+Commando,Strategem,Helldivers Mobilize,,,,6,Defensive,Support Weapon
+Quasar Cannon,Strategem,Helldivers Mobilize,,,,6,Defensive,Support Weapon
+Railgun,Strategem,Helldivers Mobilize,,,,5,Defensive,Support Weapon
+Spear,Strategem,Helldivers Mobilize,,,,7,Defensive,Support Weapon
+Guard Dog Dog Breath,Strategem,Chemical Agents,,,,,Defensive,Backpack
+Supply Pack,Strategem,Helldivers Mobilize,,,,,Defensive,Backpack
+Jump Pack,Strategem,Helldivers Mobilize,,,,,Defensive,Backpack
+Guard Dog,Strategem,Helldivers Mobilize,,,,,Defensive,Backpack
+Guard Dog Rover,Strategem,Helldivers Mobilize,,,,,Defensive,Backpack
+Balistic Shield Backpack,Strategem,Helldivers Mobilize,,,,,Defensive,Backpack
+Shield Generator,Strategem,Helldivers Mobilize,,,,,Defensive,Backpack
+Directional Shield,Strategem,Urban Legends,,,,,Defensive,Backpack
+EXO-45 Patrior Exosuit,Strategem,Helldivers Mobilize,,,,7,Defensive,Vehicle
+EXO-49 Emancipator Exosuit,Strategem,Helldivers Mobilize,,,,5,Defensive,Vehicle
+M-102 Fast Recon Vehicle,Strategem,Helldivers Mobilize,,,,4,Defensive,Vehicle
+Gas Mines,Strategem,Helldivers Mobilize,,,,5,Strategic,Emplacement
+Anti-personnel Mines,Strategem,Helldivers Mobilize,,,,3,Strategic,Emplacement
+Incendiary Mines,Strategem,Helldivers Mobilize,,,,3,Strategic,Emplacement
+Anti-tank Mines,Strategem,Helldivers Mobilize,,,,5,Strategic,Emplacement
+Tesla Tower,Strategem,Helldivers Mobilize,,,,4,Strategic,Emplacement
+Shield Generator Relay,Strategem,Helldivers Mobilize,,,,,Strategic,Emplacement
+Anti-Tank Emplacement,Strategem,Urban Legends,,,,6,Strategic,Emplacement
+HMG Emplacement,Strategem,Helldivers Mobilize,,,,4,Strategic,Emplacement
+Machine Gun Sentry,Strategem,Helldivers Mobilize,,,,2,Strategic,Sentry
+Gatling Sentry,Strategem,Helldivers Mobilize,,,,2,Strategic,Sentry
+Mortar Sentry,Strategem,Helldivers Mobilize,,,,3,Strategic,Sentry
+Autocannon Sentry,Strategem,Helldivers Mobilize,,,,5,Strategic,Sentry
+Rocket Sentry,Strategem,Helldivers Mobilize,,,,5,Strategic,Sentry
+EMS Mortar Sentry,Strategem,Helldivers Mobilize,,,,0,Strategic,Sentry
+Flame Sentry,Strategem,Urban Legends,,,,4,Strategic,Sentry
+No Booster,Booster,Base Equipment,,,,,,
+Hellpod Space Optimization,Booster,Helldivers Mobilize,,,,,,
+Vitality Enhancement,Booster,Helldivers Mobilize,,,,,,
+UAV Recon Booster,Booster,Helldivers Mobilize,,,,,,
+Stamina Enhancement,Booster,Helldivers Mobilize,,,,,,
+Muscle Enhancement,Booster,Helldivers Mobilize,,,,,,
+Increased Reinforcement Budget,Booster,Helldivers Mobilize,,,,,,
+Flexible Reinforcement Budget,Booster,Steeled Veterans,,,,,,
+Localization Confusion,Booster,Cutting Edge,,,,,,
+Expert Extraction Pilot,Booster,Democratic Detonation,,,,,,
+Motivational Shocks,Booster,Polar Patriots,,,,,,
+Experimental Infusion,Booster,Viper Commandos,,,,,,
+Firebomb Hellpods,Booster,Freedoms Flame,,,,,,
+Dead Sprint,Booster,Truth Enforcers,,,,,,
+Armed Resupply Pods,Booster,Urban Legends,,,,,,
+AC-2 Obedient,Helmet,Killzone Crossover Phase 2,,,,,,
+Defender of Our Dream,Cape,Killzone Crossover Phase 2,,,,,,
+AC-2 Obedient,Armor,Killzone Crossover Phase 2,Light,Acclimated,,,,
+StA-11 SMG,Primary,Killzone Crossover Phase 2,,,SMG,2,,
+PLAS-39 Accelerator Rifle,Primary,Killzone Crossover Phase 2,,,Sniper,3,,
